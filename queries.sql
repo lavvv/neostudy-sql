@@ -86,7 +86,7 @@ SELECT
 	is_nullable,
 	column_default
 FROM information_schema.columns
-WHERE table_name = 'former_pilots';
+WHERE table_name = 'pilots';
 
 -- очистка таблицы
 TRUNCATE TABLE bookings.pilots;
